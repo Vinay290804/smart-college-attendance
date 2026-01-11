@@ -1,0 +1,9 @@
+{
+  "endpoints": {
+    "auth": "/auth/login, /auth/register",
+    "student": "/student/mark-attendance, /student/view-my-attendance",
+    "teacher": "/teacher/create-attendance, /teacher/view-attendance/<session_id>"
+  },
+  "message": "Attendance Tracker API",
+  "status": "running"
+}
